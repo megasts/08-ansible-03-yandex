@@ -19,6 +19,27 @@
 
 ---
 
+### Ответ
+
+В Yandex Cloud запущено 3 ВМ:
+
+![Screen1](https://github.com/megasts/08-ansible-03-yandex/blob/master/img/2024-12-23_00-19-21.png)
+
+Готовый playbook находится [здесь.](https://github.com/megasts/08-ansible-03-yandex/blob/master/playbook)
+
+Подтверждение работы playbook:
+
+1. В результате работы темплейта на хосте Vector появился конфигурационный файл vector.yml: 
+
+![Screen2](https://github.com/megasts/08-ansible-03-yandex/blob/img/2024-12-23_00-39-15.png)
+
+2. Clickhouse-client работает на хосте clickhouse:
+
+![Screen3](https://github.com/megasts/08-ansible-03-yandex/blob/img/2024-12-23_00-36-30.png)
+
+3. Lighthouse запущен:
+
+![Screen4](https://github.com/megasts/08-ansible-03-yandex/blob/img/2024-12-23_00-37-42.png)
 
 
 
